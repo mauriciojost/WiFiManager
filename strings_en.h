@@ -64,7 +64,7 @@ const char HTTP_FORM_PARAM[]       PROGMEM = "<br/><input id='{i}' name='{n}' ma
 
 const char HTTP_SCAN_LINK[]        PROGMEM = "<br/><form action='/wifi?refresh=1' method='POST'><button name='refresh' value='1'>Refresh</button></form>";
 const char HTTP_SAVED[]            PROGMEM = "<div class='msg'>Saving Credentials<br/>Trying to connect ESP to network.<br />If it fails reconnect to AP to try again</div>";
-const char HTTP_PARAMSAVED[]       PROGMEM = "<div class='msg S'>Saved<br/></div>";
+const char HTTP_PARAMSAVED[]       PROGMEM = "<div class='msg S'>Saved. Connect back to Wifi and <a href='" MAIN4INOSERVER_API_HOST_BASE "' target='_blank'>keep configuring in the page of main4ino</a><br/></div>";
 const char HTTP_END[]              PROGMEM = "</div></body></html>";
 const char HTTP_ERASEBTN[]         PROGMEM = "<br/><form action='/erase' method='get'><button class='D'>Erase WiFi Config</button></form>";
 const char HTTP_UPDATEBTN[]        PROGMEM = "<br/><form action='/update' method='get'><button>Update</button></form>";
